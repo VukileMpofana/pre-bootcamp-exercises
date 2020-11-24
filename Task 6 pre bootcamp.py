@@ -1,7 +1,3 @@
-#x = input("enter first number : ")
-#y = input("Enter second number : ")
-#z = input("enter third number : ")
-
 def max_num(x,y,z):
     if x > y and z:
         return x
