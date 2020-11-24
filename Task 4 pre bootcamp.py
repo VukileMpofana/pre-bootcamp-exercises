@@ -1,6 +1,3 @@
-x = int(input("enter your number : "))
-y = int(input("enter your second number : "))
-
 def num_check(x,y):
     z = x + y
     list = [int(i) for i in str(z)]
@@ -9,4 +6,4 @@ def num_check(x,y):
             return True
     else:
         return False
-print(num_check(x,y))
+print(num_check(0,3))

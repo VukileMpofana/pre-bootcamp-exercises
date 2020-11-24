@@ -5,9 +5,10 @@ def sum_multi(list,sum):
         if i % 3 == 0 or i % 5 == 0:
             list.append(i)
             sum = sum + i
-    print("The sum of these multiples of 3 and 5 are : " + str(sum))
+    return sum
 
 
-sum_multi(list,sum)
+
+print(sum_multi(list,sum))
 
 
